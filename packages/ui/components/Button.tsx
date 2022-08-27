@@ -3,7 +3,7 @@ import React from "react";
 export interface ButtonProps {
   color: string;
   title: string;
-  bgcolor: string;
+  bgcolor?: string;
 }
 
 export const Button: React.FC<ButtonProps> = (props) => {
