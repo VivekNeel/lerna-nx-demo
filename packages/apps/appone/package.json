@@ -1,6 +1,6 @@
 {
   "name": "appone",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
@@ -24,7 +24,7 @@
     "webpack-dev-server": "^4.10.0"
   },
   "dependencies": {
-    "@vivek/ui": "^1.0.1",
+    "@vivek/ui": "^1.0.2",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
