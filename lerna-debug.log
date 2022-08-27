@@ -1,12 +1,12 @@
-0 silly argv {
-0 silly argv   _: [ 'run' ],
-0 silly argv   scope: 'appone',
-0 silly argv   lernaVersion: '5.4.3',
-0 silly argv   '$0': '/Users/vivekneel/projects/lernademo/node_modules/.bin/lerna',
-0 silly argv   script: 'start'
-0 silly argv }
-1 notice cli v5.4.3
-2 verbose rootPath /Users/vivekneel/projects/lernademo
-3 notice filter including "appone"
-4 info filter [ 'appone' ]
-5 error
+35 error Error: Command failed with exit code 1: git add -- packages/ui/package.json packages/apps/apptwo/package.json packages/apps/apptwo/package-lock.json packages/apps/appone/package.json packages/apps/appone/package-lock.json lerna.json package-lock.json
+35 error The following paths are ignored by one of your .gitignore files:
+35 error package-lock.json
+35 error packages/apps/appone/package-lock.json
+35 error packages/apps/apptwo/package-lock.json
+35 error hint: Use -f if you really want to add them.
+35 error hint: Turn this message off by running
+35 error hint: "git config advice.addIgnoredFile false"
+35 error     at makeError (/Users/vivekneel/projects/lernademo/node_modules/execa/lib/error.js:60:11)
+35 error     at handlePromise (/Users/vivekneel/projects/lernademo/node_modules/execa/index.js:118:26)
+35 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+35 error     at async Promise.all (index 0)
