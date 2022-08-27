@@ -1,0 +1,22 @@
+{
+  "name": "lernademo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/ui",
+    "packages/apps/appone",
+    "packages/apps/apptwo"
+  ],
+  "private": true,
+  "scripts": {
+    "start-appone" : "lerna run --scope appone start",
+    "start-apptwo" : "lerna run --scope apptwo start",
+    "build:all" : "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^5.4.3",
+    "nx": "^14.5.10",
+    "typescript": "^4.8.2"
+  }
+}

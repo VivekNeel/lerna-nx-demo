@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es5" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+      "lib": [
+        "es6",
+        "dom"
+      ] /* Specify a set of bundled library declaration files that describe the target runtime environment. */,
+      "jsx": "react",
+      "moduleResolution": "node",
+      "module": "CommonJS",
+      "strict": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "noEmit": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "exclude": ["node_modules", "internals", "dist"]
+  }
+  

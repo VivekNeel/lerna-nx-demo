@@ -1,0 +1,26 @@
+{
+  "name": "@vivek/ui",
+  "version": "1.0.7",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && yarn run build:cjs && yarn run build:esm",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
