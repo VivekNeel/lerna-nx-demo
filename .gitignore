@@ -3,8 +3,6 @@ dist
 log
 .idea
 notes.txt
-package-lock.json
-yarn.lock
 eks_cicd/
 lib
 .temp_cache
