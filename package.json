@@ -14,7 +14,8 @@
   "scripts": {
     "start-appone" : "lerna run --scope appone start",
     "start-apptwo" : "lerna run --scope nextapp dev",
-    "build:all" : "lerna run build"
+    "build:all" : "lerna run build",
+    "build:appone" : "lerna run --scope appone build"
   },
   "devDependencies": {
     "lerna": "^5.4.3",
