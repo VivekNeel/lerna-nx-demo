@@ -3,7 +3,13 @@ import { Button } from "@vivek/ui";
 import { isEmpty } from "lodash";
 
 const App = () => {
-  return <Button color="red" title="vivek"></Button>;
+  return (
+    <div>
+      {[...Array(10000).keys()].map((item) => {
+        return <Button color="red" title="Primary 😃" />;
+      })}
+    </div>
+  );
 };
 
 export default App;
