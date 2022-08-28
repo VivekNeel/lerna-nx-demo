@@ -6,7 +6,9 @@
   "workspaces": [
     "packages/ui",
     "packages/apps/appone",
-    "packages/apps/apptwo"
+    "packages/apps/apptwo",
+    "packages/bit-components",
+    "packages/storybook-comps"
   ],
   "private": true,
   "scripts": {

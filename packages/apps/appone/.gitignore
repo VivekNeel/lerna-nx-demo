@@ -107,3 +107,5 @@ dist
 
 # Ignore zip files
 *.zip
+
+.vercel

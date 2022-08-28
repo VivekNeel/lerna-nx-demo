@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig",
+    "compilerOptions": {
+      "declaration": true,
+      "outDir": "lib",
+      "noEmit": false,
+      "module": "es2015",
+      "declarationDir": "lib"
+    }
+  }

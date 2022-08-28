@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import { Button } from "@vivek/storybook-comps";
 function App() {
   return (
     <div className="App">
@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <Button title="VIVEK" color="red"></Button>
       </header>
     </div>
   );
