@@ -6,14 +6,14 @@
   "workspaces": [
     "packages/ui",
     "packages/apps/appone",
-    "packages/apps/apptwo",
     "packages/bit-components",
-    "packages/storybook-comps"
+    "packages/storybook-comps",
+    "packages/apps/nextapp"
   ],
   "private": true,
   "scripts": {
     "start-appone" : "lerna run --scope appone start",
-    "start-apptwo" : "lerna run --scope apptwo start",
+    "start-apptwo" : "lerna run --scope nextapp dev",
     "build:all" : "lerna run build"
   },
   "devDependencies": {

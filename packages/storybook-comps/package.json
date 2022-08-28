@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "rm -rf lib && rollup -c",
     "build:esm": "tsc",
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
     "storybook": "start-storybook -p 6006",
@@ -25,7 +25,7 @@
     "@storybook/addon-links": "^6.5.10",
     "@storybook/builder-webpack5": "^6.5.10",
     "@storybook/manager-webpack5": "^6.5.10",
-    "@storybook/react": "^6.5.10",
+    "@storybook/react": "^6.4",
     "@storybook/testing-library": "^0.0.13",
     "@types/node": "^18.7.13",
     "@types/react": "^18.0.17",
